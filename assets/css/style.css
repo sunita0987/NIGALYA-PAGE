@@ -461,17 +461,6 @@ a {
 }
 
 .accordion-title {
-  /* font-size: 2em;
-  text-align: center;
-  margin-bottom: 20px;
-  /* FAQs */
-
-  /* position: absolute;
-width: 531px;
-height: 109px;
-left: 149px;
-top: 63px; */
-
   font-family: "Jost";
   font-style: normal;
   font-weight: 900;
@@ -494,13 +483,10 @@ top: 63px; */
   background: #111;
   padding: 15px 20px;
   border: none;
-  text-align: left;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   cursor: pointer;
   font-family: "Jost";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 120.5%;
@@ -542,5 +528,27 @@ top: 63px; */
 .accordion-header.active .accordion-icon {
   transform: rotate(-4deg);
 }
+
+.frame{
+  display: flex;
+  gap:20px;
+}
+
+.frame a{
+border: 1px solid #ffffff;
+border-radius: 48px;
+align-items: center;
+display: flex;
+justify-content: center;
+width: 54px;
+height: 54px;
+margin-top: 100px;
+}
+
+.frame:hover{
+background-color:black;
+}
+
+
 
 
